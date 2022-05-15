@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto' , sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+
+}
+
+h1, h2, h3, .profile {
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 15px;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #e2f5d7;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+header {
+    position: relative;
+    top: 60px;
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 150%;
+}
+
+ul li {
+    list-style: none;
+    margin: 15px 0px;
+}
+
+.button {
+    border: 1px solid #89a07c;
+    text-decoration: none;
+    color: #89a07c;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+.intro-img {
+    margin-top: 20px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+figcaption {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.experience {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    line-height: 130%;
+}
+
+.skill-list {
+    text-align: center;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 100px;
+}
+
+.project {
+    margin: 20px 0;
+    padding: 50px;
+}
+
+.project .button {
+    margin: 0px;
+}
+
+.green {
+    background-color: #e2f5d7;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 30px;
+}
+
+.right-text {
+    text-align: right;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
